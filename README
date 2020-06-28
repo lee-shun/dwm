@@ -1,3 +1,12 @@
+李顺的备注：
+ubuntu18.04安装注意：
+使用apt-file工具获取依赖的库文件之后在进行安装！！
+另外，在config.mk文件中，
+关于X11的库文件改成如下的形式：
+
+X11INC = /usr/include/X11
+X11LIB = /usr/include/X11
+
 dwm - dynamic window manager
 ============================
 dwm is an extremely fast, small, and dynamic window manager for X.
